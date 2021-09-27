@@ -22,9 +22,31 @@ body {
 .container-text {
     text-align: center;
     margin-top: 150px;
+    color: white;
 }
 
 .hero__title {
     font-size: 4rem;
+}
+
+.hero__copy {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.hero__cta {
+    display: inline-block;
+    background: white;
+    text-decoration: none;
+    color: #257dc2;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero__cta:hover {
+    background: #257dc2;
     color: white;
+
 }
