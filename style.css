@@ -17,6 +17,7 @@ body {
     background-position: center;
     background-size: cover;
     padding-top: .1px;
+    position: relative;
 }
 
 .container-text {
@@ -48,4 +49,12 @@ body {
 .hero__cta:hover {
     background: #257dc2;
     color: white;
+}
+
+/*wave*/
+.hero__wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
