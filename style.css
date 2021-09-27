@@ -9,6 +9,8 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    min-height: 150vh;
+    background: #f6f3f3;
 }
 
 .hero {
